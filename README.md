@@ -1,73 +1,81 @@
 
-# Output
 
-![ss1](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Index.png)
+# 🎓 Student Performance Indicator
 
-![ss2](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
+## 📸 Output
+
+![Index Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Index.png)
+![Prediction Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
+
+---
+
+## 🔍 Problem Statement
+
+This project aims to understand how a student's academic performance (measured through test scores) is influenced by factors such as gender, ethnicity, parental education level, lunch type, and participation in a test preparation course.
+
+---
+
+## 📥 Data Collection
+
+* 📊 **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)
+* 🔢 **Shape**: 1000 rows × 8 columns
+* 📁 Features include:
+
+  * Gender
+  * Race/Ethnicity
+  * Parental Level of Education
+  * Lunch
+  * Test Preparation Course
+  * Math Score (Target)
+  * Reading Score
+  * Writing Score
+
+---
+
+## 🧹 Data Preprocessing
+
+* ✅ Checked for missing values
+* ✅ Removed duplicates
+* ✅ Ensured proper data types
+* ✅ Verified unique values in categorical columns
+* ✅ Scaled and encoded features using `ColumnTransformer`
+
+---
+
+## ⚙️ Project Workflow
+
+1. **Data Ingestion**: Load, clean, split into train/test, and save.
+2. **Data Transformation**: Build preprocessing pipeline with imputation, encoding, and scaling.
+3. **Model Training**: Train and evaluate regression models (best: Linear Regression).
+4. **Prediction Pipeline**: Load model and transformer, accept user input, and make predictions.
+5. **Deployment**: Flask-based UI for score prediction hosted with Docker.
+
+---
+
+## 🔬 Usage
+
+This project is suitable for:
+
+* Exploratory Data Analysis (EDA)
+* Predictive Modeling
+* Educational Insights & Strategy Development
+
+---
+
+## 📜 License
+
+Refer to the original dataset page on Kaggle for licensing information.
+
+---
+
+## 📚 Citation
+
+If using this dataset or project, cite the Kaggle source and original dataset contributors.
+
+---
+
+## 🙏 Acknowledgments
+
+Thanks to Kaggle and the original dataset contributors for providing this valuable educational data.
 
 
-***
-
-1) Problem statement
-This project understands how the student's performance (test scores) is affected by other variables such as Gender, Ethnicity, Parental level of education, Lunch and Test preparation course.
-2) Data Collection
-Dataset Source - https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977
-The data consists of 8 column and 1000 rows.
-
-
-***
-
-# Student Performance Dataset
-
-## Introduction
-This dataset contains information about student performance in exams along with various demographic and background attributes. The dataset includes the following attributes:
-
-- Gender: Sex of students (Male/Female)
-- Race/Ethnicity: Ethnicity of students (Group A, B, C, D, E)
-- Parental Level of Education: Parents' final education (Bachelor's Degree, Some College, Master's Degree, Associate's Degree, High School)
-- Lunch: Whether the student has standard or free/reduced lunch
-- Test Preparation Course: Whether the student completed a test preparation course before the exam
-- Math Score
-- Reading Score
-- Writing Score
-
-## Data Source
-The data was collected from [source link or description of data source].
-
-## Data Preprocessing
-Before using the dataset, some preprocessing steps may be necessary, including handling missing values, encoding categorical variables, and scaling numerical features.
-
-** 
-## Data Checks
-
-### Missing Values
-Check for missing values in the dataset.
-
-### Duplicates
-Check for duplicate rows in the dataset.
-
-### Data Type
-Ensure correct data types for each column in the dataset.
-
-### Number of Unique Values
-Check the number of unique values for each column in the dat
-
-
-## Usage
-This dataset can be used for various analyses and machine learning tasks, including but not limited to:
-- Exploratory Data Analysis (EDA) to understand the distribution and relationships between different variables.
-- Predictive modeling to predict student performance based on demographic and background attributes.
-- Identifying factors influencing student performance and providing insights for educational interventions.
-
-
-## License
-Please check the license of the dataset before usage.
-
-## Citation
-If you use this dataset in your research or work, please cite the original source appropriately.
-
-## Acknowledgments
-Acknowledgments to individuals or organizations who collected or provided the dataset.
-
-## References
-List any references or related work that might be helpful for understanding or using the dataset.
