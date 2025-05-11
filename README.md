@@ -1,9 +1,9 @@
 
 # Output
 
-![ss1](https://github.com/RushikeshPati20/ML-Project-Student-performance-indicator/assets/107334243/9afc832b-6a66-4b4f-8f3a-8ed8b0e19bd2)
+![ss1](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Index.png)
 
-![ss2](https://github.com/RushikeshPati20/ML-Project-Student-performance-indicator/assets/107334243/9534be29-db9d-47a0-b3ed-bc75e8c3ea9d)
+![ss2](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
 
 
 ***
