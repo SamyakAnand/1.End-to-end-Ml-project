@@ -1,5 +1,5 @@
 services:
-  - name: prime-video-dashboard
+  - name: Student_performance_indicator
     type: web
     env: docker
     repo: https://github.com/SamyakAnand/1.End-to-end-Ml-project
