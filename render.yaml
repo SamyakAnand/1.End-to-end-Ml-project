@@ -1,0 +1,8 @@
+services:
+  - name: prime-video-dashboard
+    type: web
+    env: docker
+    repo: https://github.com/SamyakAnand/1.End-to-end-Ml-project
+    branch: main
+    plan: free
+    autoDeploy: true
