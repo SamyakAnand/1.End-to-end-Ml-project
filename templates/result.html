@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prediction Result</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Global Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Body Styling */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #73a5ff, #5477f5);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    /* Result Container Styling */
+    .result-container {
+      background: #fff;
+      border-radius: 20px;
+      padding: 40px 30px;
+      max-width: 500px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      animation: fadeIn 0.8s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    /* Header and Text Styling */
+    h1 {
+      color: #5477f5;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      font-size: 1.1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+    
+    h2 {
+      font-size: 2rem;
+      color: #007BFF;
+      margin-bottom: 30px;
+    }
+    
+    /* Button Styling */
+    .btn {
+      background-color: #5477f5;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    .btn:hover {
+      background-color: #3e5ecf;
+      transform: translateY(-3px);
+    }
+  </style>
+</head>
+<body>
+  <div class="result-container">
+    <h1>Prediction Result</h1>
+    <p>Your predicted Maths Score is:</p>
+    <h2>{{ results }}</h2>
+    <a href="{{ url_for('home') }}" class="btn">Make Another Prediction</a>
+  </div>
+</body>
+</html>
