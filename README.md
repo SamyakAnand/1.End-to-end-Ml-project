@@ -4,9 +4,9 @@
 
 ## 📸 Output
 
-![Index Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Index.png)
-![Prediction Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
-![Result Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
+![Index Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/index.png)
+![Prediction Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/home.png)
+![Result Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/result.png)
 ---
 
 ## 🔍 Problem Statement
