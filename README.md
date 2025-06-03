@@ -6,7 +6,7 @@
 
 ![Index Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Index.png)
 ![Prediction Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
-
+![Result Page](https://github.com/SamyakAnand/1.End-to-end-Ml-project/blob/main/Images/Home.png)
 ---
 
 ## 🔍 Problem Statement
