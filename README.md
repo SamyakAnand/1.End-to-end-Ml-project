@@ -1,13 +1,24 @@
 
 
 # 🎓 Student Performance Indicator
+<div align="center">
+  <h2>Project Output</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <figure style="margin: 10px;">
+      <img src="https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/index.png?raw=true" alt="Index Page" width="300" style="border:2px solid #eee; border-radius:10px;">
+      <figcaption style="text-align: center; margin-top: 5px; font-weight: bold;">Index Page</figcaption>
+    </figure>
+    <figure style="margin: 10px;">
+      <img src="https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/home.png?raw=true" alt="Prediction Page" width="300" style="border:2px solid #eee; border-radius:10px;">
+      <figcaption style="text-align: center; margin-top: 5px; font-weight: bold;">Prediction Page</figcaption>
+    </figure>
+    <figure style="margin: 10px;">
+      <img src="https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/result.png?raw=true" alt="Result Page" width="300" style="border:2px solid #eee; border-radius:10px;">
+      <figcaption style="text-align: center; margin-top: 5px; font-weight: bold;">Result Page</figcaption>
+    </figure>
+  </div>
+</div>
 
-## 📸 Output
-
-![Index Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/index.png)
-![Prediction Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/home.png)
-![Result Page](https://github.com/SamyakAnand/Student-Performance-Indicator/blob/main/Images/result.png)
----
 
 ## 🔍 Problem Statement
 
